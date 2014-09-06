@@ -1,0 +1,414 @@
+.bgfix {
+	background-position: 50% 50% !important;
+}
+
+.wrap {
+	
+	&.hero {
+		height: 101%;
+		width: 100%;
+		margin: 0px !important;
+		background: url(/assets/img/kite.jpg) center center;
+		background-size: cover;
+
+		.empowering {
+			position: absolute;
+			width: 40%;
+			margin: 20% 30%;
+			height: 60%;
+			background: url(/assets/img/empowering.png) center center no-repeat;
+			background-size: contain;;
+		}
+	}
+	&.main {
+		article {
+			h5.alt {
+				display: none;
+			}
+			h1 {
+				text-align: center;
+			}
+			&.featured {
+				background: #FFF;
+				color: ;
+				.item {
+					padding: 20px;
+					text-align: center;
+					img {
+						width: 150px;
+						height: auto;
+						margin-bottom: 20px;
+					}
+					h2 {
+						padding: 0px;
+						text-align: center;
+					}
+					p {
+						text-align: center;
+					}
+				}
+			}
+			&.about {
+				background: #F9F9F9;
+				.header {
+					background: url(/assets/img/bg.about.jpg) center center;
+					background-size: cover;
+					.inner {
+						color: white;
+						padding: 100px 50px;
+						h3 {
+							text-align: center;
+							font-weight: 100;
+							font-size: 1.2em;
+							line-height: 1.4em;
+						}
+					}
+				}
+				
+			}
+			&.programs {
+				background: #222;
+				h1 {
+					margin-bottom: 50px;
+					color: white;
+				}
+				.item {
+					padding: 0px;
+					margin: 50px 0px;
+					float: left;
+					.image {
+						padding: 0px;
+						img {
+							width: 50%;
+							height: auto;
+							margin: 10% 25% 20px;
+						}
+					}
+					.content {
+						padding: 0px 50px;
+						h3 {
+							color: #DDD;
+						}
+						p, li {
+							color: white;
+						}
+					}
+				}
+				li {
+				}
+				.clearfix {
+					border-bottom: 1px dotted #444;
+				}
+			}
+			&.events {
+				background: #F9F9F9;
+				h1 {
+					margin-bottom: 50px;
+				}
+				.item {
+					background: white;
+					border-radius: 4px;
+					box-shadow: 0px 0px 5px #DDD;
+					overflow: hidden;
+					margin-bottom: 20px;
+				}
+				img {
+					width: 100%;
+					height: auto;
+					margin: 0px;
+					border-bottom: 3px solid @red;
+				}
+				.content {
+					padding: 20px 50px;
+				}
+				h3 {
+					color: @red;
+				}
+			}
+			&.partnership {
+				background: url(/assets/img/bg.partnership.jpg) center center;
+				background-size: cover;
+				color: white;
+				text-align: center;
+				.inner {
+					padding: 100px 50px;
+				}
+				form {
+					padding: 20px 0px;
+					.form-group {
+						width: 100%;
+					}
+					input {
+						display: inline-block;
+						&.email {
+							background: none;
+							color: white;
+							.placeholder(#DDD);
+							.border-right-radius(0px);
+							padding: 20px 20px;
+							width: 80%;
+							border-right: 0px;
+						}
+						&.submit {
+							.border-left-radius(0px);
+							padding: 10px 0px;
+							background: rgba(255, 255, 255, .75);
+							color: black;
+							width: 20%;
+							&:hover {
+								background: rgba(255, 255, 255, 1.0);
+							}
+						}
+					}
+				}
+			}
+			&.contact {
+				.inner {
+					h1 {
+						margin-bottom: 20px;
+					}
+					p {
+						margin-bottom: 40px;
+					}
+					padding: 100px 20px;
+					text-align: center;
+					.form-control {
+						margin: 0px 0px 10px;
+					}
+					button {
+						width: 100%;
+						padding: 15px;
+						text-transform: uppercase;
+					}
+					.contact {
+						background: #F9F9F9;
+						padding: 30px 50px 10px 50px;
+						border-radius: 4px;
+						border: 1px solid #EEE;
+					}
+					td {
+						border: none;
+						text-align: left;
+						font-size: 1.4em;
+						&.icon {
+							width: 50px;
+							font-size: 1.4em;
+							text-align: right;
+							i {
+								color: @red;
+							}
+						}
+					}
+					.clearfix {
+						margin-bottom: 20px;
+					}
+				}
+			}
+			.inner {
+				padding: 100px 20px;
+			}
+		}
+	}
+	
+}
+
+
+@media (min-width: @screen-sm-min) {
+	.wrap {
+		
+		&.hero {
+			height: 101%;
+			width: 100%;
+			margin: 0px !important;
+			background: url(/assets/img/kite.jpg) center center;
+			background-size: cover;
+		}
+		&.main {
+			article {
+				&.featured {
+					background: #FFF;
+					color: ;
+					h1 {
+						text-align: center;
+					}
+					.item {
+						padding: 20px;
+						img {
+							
+						}
+						h2 {
+							padding: 0px;
+							text-align: center;
+						}
+						p {
+							text-align: center;
+						}
+					}
+				}
+				&.about {
+					.header {
+						.inner {
+							h3 {
+								font-size: 1.6em;
+								line-height: 1.3em;
+							}
+						}
+					}
+				}
+				&.programs {
+					.item {
+						.image {
+							img {
+								margin: 20px 25%;
+							}
+						}
+					}
+				}
+				&.events {
+					.item {
+						
+					}
+				}
+				&.partnership {
+					form {
+						.form-group {
+							width: 80%;
+						}
+					}
+				}
+				&.contact {
+					padding: 100px 20px;
+				}
+				.inner {
+					padding: 100px 20px;
+				}
+			}
+		}
+		
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	.wrap {
+		
+		&.hero {
+			height: 110%;
+			width: 100%;
+			margin: 0px !important;
+			background: url(/assets/img/kite.jpg) center center;
+			background-size: cover;
+		}
+		&.main {
+			article {
+				&.featured {
+					background: #FFF;
+					color: ;
+					h1 {
+						text-align: center;
+					}
+					.item {
+						padding: 20px;
+						img {
+							
+						}
+						h2 {
+							padding: 0px;
+							text-align: center;
+						}
+						p {
+							text-align: center;
+						}
+					}
+				}
+				&.events {
+					.item {
+						margin-bottom: 0px;
+					}
+				}
+				&.programs {
+					.item {
+						.image {
+							img {
+								width: 80%;
+								height: auto;
+								margin: 10% 10% 20px;
+							}
+						}
+					}
+				}
+				&.partnership {
+					form {
+						.form-group {
+							width: 60%;
+						}
+					}
+				}
+				&.contact {
+					.inner {
+						button {
+							width: auto;
+							float: right;
+							padding: 6px 12px;
+						}
+					}
+				}
+				.inner {
+					padding: 100px 20px;
+				}
+			}
+		}
+		
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.wrap {
+		
+		&.hero {
+			height: 110%;
+			width: 100%;
+			margin: 0px !important;
+			background: url(/assets/img/kite.jpg) center center;
+			background-size: cover;
+			.empowering {
+				margin: 10% 30% 30%;
+			}
+		}
+		&.main {
+			article {
+				&.featured {
+					background: #FFF;
+					color: ;
+					h1 {
+						text-align: center;
+					}
+					.item {
+						padding: 20px;
+						text-align: center;
+						img {
+							width: 150px;
+							height: auto;
+						}
+						h2 {
+							padding: 0px;
+							text-align: center;
+							font-size: 24px;
+						}
+						p {
+							text-align: center;
+						}
+					}
+				}
+				&.events {
+					img {
+						
+					}
+				}
+				.inner {
+					padding: 100px 20px;
+				}
+			}
+		}
+		
+	}
+}
