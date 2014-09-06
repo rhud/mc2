@@ -50,6 +50,7 @@ header.smartheader {
 				-webkit-transition: all 00.4s;
 				-moz-transition: all 00.4s;
 				transition: all 00.4s;
+				opacity: 0;
 			}	
 		}
 	}	
@@ -98,6 +99,16 @@ header.smartheader {
 	header.smartheader {
 		.container {
 			padding: 40px 60px;
+			.navbar-brand {
+				opacity: 1.0;
+			}
+		}
+		&.shrink {
+			.container {
+				.navbar-brand {
+					opacity: 1.0;
+				}
+			}
 		}
 	}
 }

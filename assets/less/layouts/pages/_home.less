@@ -181,18 +181,18 @@
 						text-transform: uppercase;
 					}
 					.contact {
-						background: #F9F9F9;
-						padding: 30px 50px 10px 50px;
-						border-radius: 4px;
-						border: 1px solid #EEE;
+						background: none;
+						padding: 0px 0px 10px 0px;
+						border-radius: 0px;
+						border: none;
 					}
 					td {
 						border: none;
 						text-align: left;
-						font-size: 1.4em;
+						font-size: 1.2em;
 						&.icon {
 							width: 50px;
-							font-size: 1.4em;
+							font-size: 1.2em;
 							text-align: right;
 							i {
 								color: @red;
@@ -278,6 +278,27 @@
 				}
 				&.contact {
 					padding: 100px 20px;
+					.inner {
+						.contact {
+							background: #F9F9F9;
+							padding: 30px 50px 10px 50px;
+							border-radius: 4px;
+							border: 1px solid #EEE;
+						}
+						td {
+							border: none;
+							text-align: left;
+							font-size: 1.4em;
+							&.icon {
+								width: 50px;
+								font-size: 1.4em;
+								text-align: right;
+								i {
+									color: @red;
+								}
+							}
+						}
+					}
 				}
 				.inner {
 					padding: 100px 20px;
