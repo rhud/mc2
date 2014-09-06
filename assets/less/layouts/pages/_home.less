@@ -30,9 +30,11 @@
 			}
 			&.featured {
 				background: #FFF;
-				color: ;
+				.inner {
+					padding: 50px 0px;
+				}
 				.item {
-					padding: 20px;
+					padding: 20px 0px;
 					text-align: center;
 					img {
 						width: 150px;
@@ -55,7 +57,7 @@
 					background-size: cover;
 					.inner {
 						color: white;
-						padding: 100px 50px;
+						padding: 50px 20px;
 						h3 {
 							text-align: center;
 							font-weight: 100;
@@ -85,7 +87,7 @@
 						}
 					}
 					.content {
-						padding: 0px 50px;
+						padding: 0px;
 						h3 {
 							color: #DDD;
 						}
@@ -102,8 +104,11 @@
 			}
 			&.events {
 				background: #F9F9F9;
+				.inner {
+					padding: 50px 0px;
+				}
 				h1 {
-					margin-bottom: 50px;
+					margin: 0px 20px 50px;
 				}
 				.item {
 					background: white;
@@ -119,7 +124,7 @@
 					border-bottom: 3px solid @red;
 				}
 				.content {
-					padding: 20px 50px;
+					padding: 20px;
 				}
 				h3 {
 					color: @red;
@@ -130,8 +135,11 @@
 				background-size: cover;
 				color: white;
 				text-align: center;
+				h1 {
+					font-size: 2.4em;
+				}
 				.inner {
-					padding: 100px 50px;
+					padding: 50px 20px;
 				}
 				form {
 					padding: 20px 0px;
@@ -170,7 +178,7 @@
 					p {
 						margin-bottom: 40px;
 					}
-					padding: 100px 20px;
+					padding: 50px 20px;
 					text-align: center;
 					.form-control {
 						margin: 0px 0px 10px;
@@ -205,7 +213,7 @@
 				}
 			}
 			.inner {
-				padding: 100px 20px;
+				padding: 50px 20px;
 			}
 		}
 	}
@@ -227,7 +235,9 @@
 			article {
 				&.featured {
 					background: #FFF;
-					color: ;
+					.inner {
+						padding: 100px 0px;
+					}
 					h1 {
 						text-align: center;
 					}
@@ -248,6 +258,7 @@
 				&.about {
 					.header {
 						.inner {
+							padding: 50px 0px;
 							h3 {
 								font-size: 1.6em;
 								line-height: 1.3em;
@@ -262,14 +273,28 @@
 								margin: 20px 25%;
 							}
 						}
+						.content {
+							padding: 0px 50px;
+						}
 					}
 				}
 				&.events {
+					.inner {
+						padding: 100px 20px;
+					}
 					.item {
-						
+						.content {
+							padding: 20px 50px;
+						}
 					}
 				}
 				&.partnership {
+					h1 {
+						font-size: 40px;
+					}
+					.inner {
+						padding: 100px 50px;
+					}
 					form {
 						.form-group {
 							width: 80%;
@@ -339,6 +364,16 @@
 						p {
 							text-align: center;
 						}
+					}
+				}
+				&.about {
+					.header {
+						.inner {
+							padding: 100px 150px;
+						}
+					}
+					.inner {
+						padding: 100px;
 					}
 				}
 				&.events {

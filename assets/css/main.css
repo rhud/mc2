@@ -6642,10 +6642,12 @@ footer .inner {
 }
 .wrap.main article.featured {
   background: #FFF;
-  color: ;
+}
+.wrap.main article.featured .inner {
+  padding: 50px 0px;
 }
 .wrap.main article.featured .item {
-  padding: 20px;
+  padding: 20px 0px;
   text-align: center;
 }
 .wrap.main article.featured .item img {
@@ -6670,7 +6672,7 @@ footer .inner {
 }
 .wrap.main article.about .header .inner {
   color: white;
-  padding: 100px 50px;
+  padding: 50px 20px;
 }
 .wrap.main article.about .header .inner h3 {
   text-align: center;
@@ -6699,7 +6701,7 @@ footer .inner {
   margin: 10% 25% 20px;
 }
 .wrap.main article.programs .item .content {
-  padding: 0px 50px;
+  padding: 0px;
 }
 .wrap.main article.programs .item .content h3 {
   color: #DDD;
@@ -6729,8 +6731,11 @@ footer .inner {
 .wrap.main article.events {
   background: #F9F9F9;
 }
+.wrap.main article.events .inner {
+  padding: 50px 0px;
+}
 .wrap.main article.events h1 {
-  margin-bottom: 50px;
+  margin: 0px 20px 50px;
 }
 .wrap.main article.events .item {
   background: white;
@@ -6747,7 +6752,7 @@ footer .inner {
   border-bottom: 3px solid #d2232a;
 }
 .wrap.main article.events .content {
-  padding: 20px 50px;
+  padding: 20px;
 }
 .wrap.main article.events h3 {
   color: #d2232a;
@@ -6759,8 +6764,11 @@ footer .inner {
   color: white;
   text-align: center;
 }
+.wrap.main article.partnership h1 {
+  font-size: 2.4em;
+}
 .wrap.main article.partnership .inner {
-  padding: 100px 50px;
+  padding: 50px 20px;
 }
 .wrap.main article.partnership form {
   padding: 20px 0px;
@@ -6802,7 +6810,7 @@ footer .inner {
   background: #ffffff;
 }
 .wrap.main article.contact .inner {
-  padding: 100px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 .wrap.main article.contact .inner h1 {
@@ -6857,7 +6865,7 @@ footer .inner {
   margin-bottom: 20px;
 }
 .wrap.main article .inner {
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 @media (min-width: 768px) {
   .wrap.hero {
@@ -6870,7 +6878,9 @@ footer .inner {
   }
   .wrap.main article.featured {
     background: #FFF;
-    color: ;
+  }
+  .wrap.main article.featured .inner {
+    padding: 100px 0px;
   }
   .wrap.main article.featured h1 {
     text-align: center;
@@ -6885,12 +6895,30 @@ footer .inner {
   .wrap.main article.featured .item p {
     text-align: center;
   }
+  .wrap.main article.about .header .inner {
+    padding: 50px 0px;
+  }
   .wrap.main article.about .header .inner h3 {
     font-size: 1.6em;
     line-height: 1.3em;
   }
   .wrap.main article.programs .item .image img {
     margin: 20px 25%;
+  }
+  .wrap.main article.programs .item .content {
+    padding: 0px 50px;
+  }
+  .wrap.main article.events .inner {
+    padding: 100px 20px;
+  }
+  .wrap.main article.events .item .content {
+    padding: 20px 50px;
+  }
+  .wrap.main article.partnership h1 {
+    font-size: 40px;
+  }
+  .wrap.main article.partnership .inner {
+    padding: 100px 50px;
   }
   .wrap.main article.partnership form .form-group {
     width: 80%;
@@ -6946,6 +6974,12 @@ footer .inner {
   }
   .wrap.main article.featured .item p {
     text-align: center;
+  }
+  .wrap.main article.about .header .inner {
+    padding: 100px 150px;
+  }
+  .wrap.main article.about .inner {
+    padding: 100px;
   }
   .wrap.main article.events .item {
     margin-bottom: 0px;
