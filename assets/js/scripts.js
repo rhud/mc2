@@ -2604,6 +2604,10 @@ var Roots = {
 			}
 		}
 		
+		$(".scroll-nav__link").click(function(){
+			$(".menu-link").trigger("click");
+		});
+		
 		checkWidth();
     }
   },

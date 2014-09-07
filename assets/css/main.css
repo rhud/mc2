@@ -6413,19 +6413,8 @@ figure.alignnone {
 .navbar-nav {
   margin: 0;
 }
-.navbar-brand {
-  background: url(/assets/img/mc.logo.png) left center no-repeat;
-  -webkit-background-size: 150px 90px;
-          background-size: 150px 90px;
-  width: 150px;
-  height: 90px;
-  position: relative;
-  visibility: visible;
-  display: block;
-  margin: 0px !important;
-}
 header.smartheader {
-  position: fixed !important;
+  position: absolute;
   width: 100%;
   top: 0px;
   background: none;
@@ -6441,16 +6430,25 @@ header.smartheader .container .navbar-brand {
   -webkit-transition: all 00.4s;
   -o-transition: all 00.4s;
      transition: all 00.4s;
-}
-header.smartheader.shrink .container {
-  padding: 10px 40px;
-  background: #d2232a;
-}
-header.smartheader.shrink .container .navbar-brand {
-  width: 80px;
-  height: 48px;
+  background: url(/assets/img/mc.logo.png) left center no-repeat;
   -webkit-background-size: 80px 48px;
           background-size: 80px 48px;
+  width: 80px;
+  height: 48px;
+  position: relative;
+  visibility: visible;
+  display: block;
+  margin: 0px !important;
+}
+header.smartheader.shrink .container {
+  display: none;
+  padding: 20px 40px;
+}
+header.smartheader.shrink .container .navbar-brand {
+  width: 60px;
+  height: 36px;
+  -webkit-background-size: 60px 36px;
+          background-size: 60px 36px;
   top: 0px;
   -webkit-transition: all 00.4s;
   -o-transition: all 00.4s;
@@ -6490,15 +6488,27 @@ header.smartheader.shrink .container .navbar-brand {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .autonav.smartheader.shrink {
-  top: 20px;
+  top: 15px;
   right: 15px;
 }
 @media (min-width: 768px) {
+  header.smartheader {
+    position: fixed;
+  }
   header.smartheader .container {
     padding: 40px 60px;
   }
   header.smartheader .container .navbar-brand {
     opacity: 1.0;
+    -webkit-background-size: 150px 90px;
+            background-size: 150px 90px;
+    width: 150px;
+    height: 90px;
+  }
+  header.smartheader.shrink .container {
+    display: block;
+    background: #d2232a;
+    padding: 10px 40px;
   }
   header.smartheader.shrink .container .navbar-brand {
     opacity: 1.0;
@@ -6590,12 +6600,15 @@ header.smartheader.shrink .container .navbar-brand {
     display: block;
     position: fixed;
     top: 20px;
-    left: -60px;
+    left: -50px;
     z-index: 100;
-    padding: 0px;
     -webkit-transition: all 00.4s;
     -o-transition: all 00.4s;
        transition: all 00.4s;
+    padding: 0px 1px 0px 2px;
+    background: #d2232a;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
   }
   .menu-link i {
     font-size: 30px;
@@ -6603,7 +6616,7 @@ header.smartheader.shrink .container .navbar-brand {
     color: white;
   }
   .shrink .menu-link {
-    top: 15px;
+    top: 20px;
   }
 }
 footer {
