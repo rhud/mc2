@@ -6507,7 +6507,7 @@ header.smartheader.shrink .container .navbar-brand {
   }
   header.smartheader.shrink .container {
     display: block;
-    background: #d2232a;
+    background: rgba(210, 35, 42, 0.9);
     padding: 10px 40px;
   }
   header.smartheader.shrink .container .navbar-brand {
