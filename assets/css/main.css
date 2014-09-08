@@ -6726,6 +6726,30 @@ footer .inner p {
 .wrap.main article.programs .item .content li {
   color: white;
 }
+.wrap.main article.programs .item .content blockquote {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+.wrap.main article.programs .item .content blockquote a {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  padding: 20px;
+  display: block;
+  font-weight: 300;
+  color: #222;
+}
+.wrap.main article.programs .item .content blockquote a i {
+  color: #222;
+  font-size: 24px;
+}
+.wrap.main article.programs .item .content blockquote a:hover {
+  background: #ffffff;
+  color: #d2232a;
+}
+.wrap.main article.programs .item .content blockquote a:hover i {
+  color: #d2232a;
+}
 .wrap.main article.programs .clearfix,
 .wrap.main article.programs .dl-horizontal dd,
 .wrap.main article.programs .container,

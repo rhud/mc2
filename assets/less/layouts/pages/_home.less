@@ -94,6 +94,31 @@
 						p, li {
 							color: white;
 						}
+						blockquote {
+							border: none;
+							padding: 0px;
+							margin: 0px;
+							a {
+								background: rgba(255, 255, 255, .75);
+								border-radius: 4px;
+								padding: 20px;
+								display: block;
+								font-weight: 300;
+								color: #222;
+								i {
+									color: #222;
+									font-size: 24px;
+								}
+								&:hover {
+									background: rgba(255, 255, 255, 1.0);
+									color: @red;
+									i {
+										color: @red;
+									}
+								}
+							}
+							
+						}
 					}
 				}
 				li {
