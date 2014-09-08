@@ -6627,6 +6627,9 @@ footer .inner {
   text-align: center;
   color: white;
 }
+footer .inner p {
+  font-size: 0.8em;
+}
 .bgfix {
   background-position: 50% 50% !important;
 }
@@ -6782,6 +6785,11 @@ footer .inner {
 }
 .wrap.main article.partnership .inner {
   padding: 50px 20px;
+}
+.wrap.main article.partnership p.logos img {
+  width: auto;
+  height: 60px;
+  margin: 5px;
 }
 .wrap.main article.partnership form {
   padding: 20px 0px;
@@ -6940,6 +6948,11 @@ footer .inner {
   .wrap.main article.partnership .inner {
     padding: 100px 50px;
   }
+  .wrap.main article.partnership p.logos img {
+    width: auto;
+    height: 60px;
+    margin: 5px;
+  }
   .wrap.main article.partnership form .form-group {
     width: 80%;
   }
@@ -7006,6 +7019,11 @@ footer .inner {
     height: auto;
     margin: 10% 10% 20px;
   }
+  .wrap.main article.partnership p.logos img {
+    width: auto;
+    height: 80px;
+    margin: 10px;
+  }
   .wrap.main article.partnership form .form-group {
     width: 60%;
   }
@@ -7052,6 +7070,11 @@ footer .inner {
   }
   .wrap.main article.featured .item p {
     text-align: center;
+  }
+  .wrap.main article.partnership p.logos img {
+    width: auto;
+    height: 100px;
+    margin: 10px;
   }
   .wrap.main article .inner {
     padding: 100px 20px;
