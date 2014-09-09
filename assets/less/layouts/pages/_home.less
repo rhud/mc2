@@ -72,8 +72,28 @@
 				background: #F9F9F9;
 				.inner {
 					text-align: center;
+					p.links {
+						padding: 20px 0px;
+						a {
+							padding: 10px;
+							margin: 20px;
+							border: 1px solid @red;
+							border-color: rgba(210, 35, 42, .5);
+							border-radius: 4px;
+							&:hover {
+								background: @red;
+								color: white;
+								i {
+									color: white;
+								}
+							}
+						}
+					}
 					.owl-theme {
-						margin: 50px 0px;
+						margin: 20px 0px 0px;
+						.owl-wrapper-outer {
+							padding: 10px 0px;	
+						}
 					}
 					img {
 						width: 95%;
