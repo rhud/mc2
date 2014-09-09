@@ -12,6 +12,7 @@
 
 <div class="autonav smartheader">
 	<a class="menu-link"><i class="icon-menu"></i></a>
+	<div class="social"><a href="http://facebook.com/metrocaretoowoomba" target="_blank"><i class="icon-fb"></i></a> <a href="http://instagr.am/metrocaretoowoomba" target="_blank"><i class="icon-instagram"></i></a></div>
 </div>
  
 <?php include roots_template_path(); ?> 
