@@ -6702,6 +6702,9 @@ footer .inner p {
 .wrap.main article.instagram .inner {
   text-align: center;
 }
+.wrap.main article.instagram .inner img {
+  height: 100;
+}
 .wrap.main article.programs {
   background: #222;
 }
