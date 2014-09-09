@@ -6696,6 +6696,12 @@ footer .inner p {
   font-size: 1.2em;
   line-height: 1.4em;
 }
+.wrap.main article.instagram {
+  background: #F9F9F9;
+}
+.wrap.main article.instagram .inner {
+  text-align: center;
+}
 .wrap.main article.programs {
   background: #222;
 }
