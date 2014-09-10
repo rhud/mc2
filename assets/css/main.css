@@ -6526,6 +6526,9 @@ header.smartheader.shrink .container .navbar-brand {
   header.smartheader.shrink .container .navbar-brand {
     opacity: 1.0;
   }
+  .autonav.smartheader .social {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
   .autonav.smartheader ol li {
